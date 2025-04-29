@@ -1,5 +1,4 @@
 public class ProcessedDocument {
-
     public static void main(String[] args) {
         DocumentRegistry registry = new DocumentRegistry();
 
