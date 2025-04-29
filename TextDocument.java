@@ -1,5 +1,5 @@
 public class TextDocument implements Document {
-    private String filePath; // Corrected type from Integer to String based on typical usage
+    private String filePath;
     private String encoding;
     private int wordCount;
 
@@ -10,7 +10,6 @@ public class TextDocument implements Document {
     @Override
     public TextDocument clone() {
         try {
-            // Perform a shallow copy
             return (TextDocument) super.clone();
         } catch (CloneNotSupportedException e) {
             throw new RuntimeException("Cloning not supported for TextDocument", e);
@@ -28,7 +27,6 @@ public class TextDocument implements Document {
         return "Text";
     }
 
-    // Setters to configure the cloned instance
     public void setFilePath(String filePath) {
         this.filePath = filePath;
     }

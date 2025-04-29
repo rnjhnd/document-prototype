@@ -10,7 +10,6 @@ public class SpreadsheetDocument implements Document {
     @Override
     public SpreadsheetDocument clone() {
         try {
-            // Perform a shallow copy
             return (SpreadsheetDocument) super.clone();
         } catch (CloneNotSupportedException e) {
             throw new RuntimeException("Cloning not supported for SpreadsheetDocument", e);
@@ -28,7 +27,6 @@ public class SpreadsheetDocument implements Document {
         return "Spreadsheet";
     }
 
-    // Setters to configure the cloned instance
     public void setSpreadsheetName(String spreadsheetName) {
         this.spreadsheetName = spreadsheetName;
     }

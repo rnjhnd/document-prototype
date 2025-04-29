@@ -1,10 +1,9 @@
-public class DocumentRegistry {
+class DocumentRegistry {
     private PdfDocument pdfPrototype;
     private TextDocument textDocumentPrototype;
     private SpreadsheetDocument spreadsheetPrototype;
 
     public DocumentRegistry() {
-        // Initialize the prototype instances
         this.pdfPrototype = new PdfDocument();
         this.textDocumentPrototype = new TextDocument();
         this.spreadsheetPrototype = new SpreadsheetDocument();
@@ -21,6 +20,4 @@ public class DocumentRegistry {
     public SpreadsheetDocument createSpreadsheetDocument() {
         return spreadsheetPrototype.clone();
     }
-
-    // Ignoring createSheep, createCow, createHorse as they are not related to the document context and output.
 }

@@ -2,7 +2,6 @@ public class PdfDocument implements Document {
     private String fileName;
     private String author;
     private int pageCount;
-    // The 'name' field from the UML is not used in the output, so omitting it.
 
     public PdfDocument() {
         System.out.println("Creating a PDF Document prototype.");
@@ -11,10 +10,8 @@ public class PdfDocument implements Document {
     @Override
     public PdfDocument clone() {
         try {
-            // Perform a shallow copy, which is sufficient for this example
             return (PdfDocument) super.clone();
         } catch (CloneNotSupportedException e) {
-            // This should not happen as we implement Cloneable
             throw new RuntimeException("Cloning not supported for PdfDocument", e);
         }
     }
@@ -30,7 +27,6 @@ public class PdfDocument implements Document {
         return "PDF";
     }
 
-    // Setters to configure the cloned instance
     public void setFileName(String fileName) {
         this.fileName = fileName;
     }
