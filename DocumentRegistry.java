@@ -1,4 +1,4 @@
-class DocumentRegistry {
+public class DocumentRegistry {
     private PdfDocument pdfPrototype;
     private TextDocument textDocumentPrototype;
     private SpreadsheetDocument spreadsheetPrototype;
