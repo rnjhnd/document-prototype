@@ -1,7 +1,7 @@
 # Lab-Assignment-7-Prototype-Design-Pattern
 
-**Refer to this UML Diagram:**
-![image](https://github.com/user-attachments/assets/c49aa490-6d33-4491-9773-d45630d54481)
+**Refer to this UML Diagram:**<br>
+![image](https://github.com/user-attachments/assets/c49aa490-6d33-4491-9773-d45630d54481)<br>
 
 
 Implement the diagram.  You must produce the following output:  Disregard the comment.
