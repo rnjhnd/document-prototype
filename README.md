@@ -5,7 +5,7 @@
 ![image](https://github.com/user-attachments/assets/c49aa490-6d33-4491-9773-d45630d54481)
 <br><br>
 
-Implement the diagram.  You must produce the following output:  Disregard the comment.
+Implement the diagram and generate the specified output, disregarding the comment.
 
 ```java
 Creating a PDF Document prototype. //Executed in the constructor
