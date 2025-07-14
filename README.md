@@ -1,4 +1,4 @@
-# Lab-Assignment-7-Prototype-Design-Pattern
+# Prototype Design Pattern
 
 **Refer to this UML Diagram:**
 <br><br>
