@@ -1,4 +1,4 @@
-# Document Cloning Manager
+# Document Instance Manager
 
 **Refer to this UML Diagram:**
 <br><br>
