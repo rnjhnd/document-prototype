@@ -1,4 +1,4 @@
-# Prototype Design Pattern
+# Document Cloning Manager
 
 **Refer to this UML Diagram:**
 <br><br>
