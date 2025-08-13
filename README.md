@@ -26,7 +26,14 @@ This project implements the **Prototype Design Pattern** with the following comp
 
 ![image](https://github.com/user-attachments/assets/c49aa490-6d33-4491-9773-d45630d54481)
 
-The following UML class diagram illustrates the architecture of the Document Prototype Manager. It shows the relationships between the core components: the `Document` interface, its concrete implementations (`PdfDocument`, `TextDocument`, `SpreadsheetDocument`), the `DocumentRegistry` for managing prototypes, and the main application class. This diagram helps visualize how the Prototype design pattern is applied in this project.
+The following UML class diagram illustrates:
+- The architecture of the Document Prototype Manager
+- Relationships between the core components:
+  - The `Document` interface
+  - Concrete implementations: `PdfDocument`, `TextDocument`, `SpreadsheetDocument`
+  - The `DocumentRegistry` for managing prototypes
+  - The main application class
+- How the Prototype design pattern is applied in this project
 
 ## 🚀 Features
 
