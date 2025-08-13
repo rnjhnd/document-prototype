@@ -47,14 +47,14 @@ The following UML class diagram illustrates:
 
 ```
 document-prototype/
-├── README.md
-└── src/
-    ├── Document.java                 # Document interface
-    ├── DocumentRegistry.java         # Prototype registry and factory
-    ├── PdfDocument.java              # PDF document implementation
-    ├── TextDocument.java             # Text document implementation
-    ├── SpreadsheetDocument.java      # Spreadsheet document implementation
-    └── ProcessedDocument.java        # Main application demo
+├── src/
+│   ├── Document.java                  # Document interface
+│   ├── DocumentRegistry.java          # Prototype registry and factory
+│   ├── PdfDocument.java               # PDF document implementation
+│   ├── TextDocument.java              # Text document implementation
+│   ├── SpreadsheetDocument.java       # Spreadsheet document implementation
+│   └── ProcessedDocument.java         # Main application demo
+└── README.md                          # Project documentation
 ```
 
 ## 🛠️ Installation & Setup
